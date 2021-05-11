@@ -1,0 +1,14 @@
+.navbar-nav {
+    min-height: 8vh;
+    display: flex;
+    align-items: center;
+}
+.navbar-link {
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+}
+.navbar-link:hover {
+    background-color: darkblue;
+    border-radius: 5px;
+}

@@ -1,0 +1,13 @@
+.orders-container {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    background-color: slategray;
+    color: whitesmoke;
+}
+.order-table {
+    background-color: darkmagenta;
+}
+.colored-text {
+    color: salmon;
+}

@@ -1,0 +1,38 @@
+.checkout-table {
+    width: 65%;
+    margin: 25px auto;
+}
+.th {
+    color: greenyellow;
+}
+.td {
+    color: whitesmoke;
+}
+.checkout-heading {
+    text-align: center;
+    padding: 15px;
+}
+.check-container {
+    width: 95%;
+    margin: 15px auto;
+    height: 55vh;
+    color: whitesmoke;
+    background-image: linear-gradient(45deg, green, black, blue);
+    border-radius: 11px;
+}
+.checkout-btn {
+    display: block;
+    margin: 45px auto;
+    border-radius: 10px;
+    width: 10%;
+}
+
+@media (max-width: 360px) { 
+    .checkout-btn {
+        width: 95%;
+        margin: 5px auto;
+    }
+    .checkout-table {
+        width: 100%;
+    }
+}

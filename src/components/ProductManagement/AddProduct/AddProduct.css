@@ -1,0 +1,28 @@
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    margin: 20px auto;
+    background-color: darkorchid;
+    border-radius: 11px;
+    height: 65vh;
+}
+.form-div{
+    width: 55%;
+}
+form input {
+    margin: 10px 0;
+    padding: 5px;
+    width: 100%;
+}
+.submit-btn {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+}
+.upload-btn {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+}

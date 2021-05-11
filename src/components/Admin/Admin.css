@@ -1,0 +1,29 @@
+#left {
+    background-color: darkgreen;
+    color: seashell;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.product-btn {
+    display: block;
+    color: seashell;
+    width: 100%;
+    margin: 10px auto;
+}
+.product-btn:hover {
+    background-color: springgreen;
+}
+.manage-product-btn {
+    
+}
+.add-product-btn {
+    
+}
+.edit-product-btn {
+    
+}
+#right {
+    width: 100%;
+}

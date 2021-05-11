@@ -1,0 +1,23 @@
+.product-card {
+    height: 95%;
+    margin: 5px;
+    padding: 5px;
+    color: whitesmoke;
+    border-radius: 11px;
+    background-color: #393939;
+}
+.product-card img {
+    display: inline-block;
+    margin: auto;
+    width: 50%;
+}
+.product-card-footer {
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buy-btn {
+    border-radius: 7px;
+} 

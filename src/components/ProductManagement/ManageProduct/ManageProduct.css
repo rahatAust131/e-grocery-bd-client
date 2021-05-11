@@ -1,0 +1,22 @@
+.product-table-container {
+    background-color: darkblue;
+}
+.edit-icon, .delete-icon {
+    margin: 5px;
+}
+.edit-icon {
+    color: palegoldenrod;
+}
+.delete-icon {
+    color: darkorange;
+}
+.edit-icon:hover {
+    cursor: pointer;
+    background-color: dimgray;
+    color: whitesmoke;
+}
+.delete-icon:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: darkred;
+}

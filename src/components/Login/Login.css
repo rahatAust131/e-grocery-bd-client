@@ -1,0 +1,50 @@
+.login-form-container {
+    width: 50%;
+    display: flex;
+    margin: 5px auto;
+    flex-direction: column;
+    padding: 10%;
+    border-radius: 7px;
+    background-image: linear-gradient(45deg, black, cyan);
+}
+.form-row {
+    width: 100%;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.extra-login {
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+}
+.form-row:focus {
+    border: 4px solid aquamarine;
+}
+.google-btn {
+    display: block;
+    width: 50%;
+    border-radius: 45px;
+    margin: auto;
+}
+.google-icon img {
+    width: 3%;
+    margin: 5px;
+}
+
+@media (max-width: 460px) { 
+    .login-form-container {
+        width: 95%;
+        border-radius: 9px;
+    }
+    .extra-login {
+        width: 100%;
+    }
+    .google-btn {
+        width: 80%;
+        border-radius: 15px;
+    }
+    .google-icon img {
+        width: 5%;
+    }
+}
